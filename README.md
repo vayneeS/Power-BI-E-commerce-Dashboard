@@ -17,14 +17,14 @@ The report is built on a **star schema** with two fact tables and four dimension
 
 The two fact tables share `order_id` but are not directly related — filters flow between them via DAX using `TREATAS` rather than a physical relationship, avoiding many-to-many ambiguity.
 
-![Data Model](/assets/images/star_model_olist.png)
+![Data Model](/images/star_model_olist.png)
 ---
 
 ## Page 1 — Executive Overview
 
 *"How is the business performing overall?"*
 
-![Page 1 — Executive Overview](/assets/images/page1_olist.png)
+![Page 1 — Executive Overview](/images/page1_olist.png)
 
 ### Visuals
 - KPI cards: Total Revenue, Total Orders, Avg Order Value, Avg Review Score
@@ -60,7 +60,7 @@ AVERAGEX(
 
 *"Does delivery performance drive review scores?"*
 
-![Page 2 — Customer Satisfaction](/assets/images/page2_olist.png)
+![Page 2 — Customer Satisfaction](/images/page2_olist.png)
 
 ### Visuals
 - KPI cards: Avg Review Score, Late Delivery Rate, Avg Days Late, Avg Delivery Days
@@ -94,7 +94,7 @@ The scatter plot uses `dim_customers[customer_state]` as the detail field, revea
 
 *"Are sellers with high scores reliable?"*
 
-![Page 3 — Seller Performance](/assets/images/page3_olist.png)
+![Page 3 — Seller Performance](/images/page3_olist.png)
 
 ### Visuals
 - KPI cards: Total Sellers, Revenue per Seller, Avg Review per Seller, % At Risk Sellers
