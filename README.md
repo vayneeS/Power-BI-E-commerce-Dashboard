@@ -1,6 +1,6 @@
-## Exploring dashboard creation in Power BI
-
 # Olist E-Commerce Dashboard
+
+## Exploring dashboard creation in Power BI
 
 In this project, I created a three-page interactive dashboard based on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), covering ~100,000 orders placed between 2016 and 2018.
 
